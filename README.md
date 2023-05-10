@@ -1,15 +1,17 @@
-# remote_toolkit
+# toorPIA Remote Toolkit
 toolkit for utilizing toorpia remotely
 
 ## How to Install
 
 ```bash
-    $ pip install .
+$ git clone https://github.com/toorpia/remote_toolkit.git
+$ cd remote_toolkit
+$ pip install .
 ```
 
 ## How to Use
 
-`samples/sample.ipynb` を参考にしてください。
+[`examples/simple.ipynb`](https://github.com/toorpia/remote_toolkit/blob/main/examples/simple.ipynb) を参考にしてください。
 
 
 ## Requirement
