@@ -40,7 +40,7 @@ class toorpia_remote_toolkit:
                 error = ssh.stderr.readlines()
                 print >>sys.stderr, "ERROR: %s" % error
             else:
-                return result
+                return result[:,0], result[:,1]
         else:
             subprocess.run(["ssh", self.ssh_info, cmd], shell=False)
 
