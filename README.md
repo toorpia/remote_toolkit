@@ -7,7 +7,7 @@ toolkit for utilizing toorpia remotely
     $ pip install .
 ```
 
-## How to Install
+## How to Use
 
 `samples/sample.ipynb` を参考にしてください。
 
