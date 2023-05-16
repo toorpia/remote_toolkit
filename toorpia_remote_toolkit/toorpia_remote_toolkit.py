@@ -23,7 +23,7 @@ class toorpia_remote_toolkit:
         self.ssh_info = ssh_user + '@' + ssh_host
         self.working_dir = working_dir
 
-        self.remote_cmd_prefix = f'cd {toorpia_service_dir}; {docker_compose_cmd} exec -u {analysis_user} -w {working_dir} toorpia'
+        self.remote_cmd_prefix = f'cd {toorpia_service_dir}; {docker_compose_cmd} exec -T -u {analysis_user} -w {working_dir} toorpia'
 
         self.toorpia_cmd = "/usr/local/bin/toorpia"
 
